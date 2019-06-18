@@ -1,0 +1,36 @@
+.login-body{
+  background: url('../images/job2.jpg');
+  background-repeat: no-repeat;
+}
+.login-panel{
+  margin:40px auto;
+  height:350px;
+  width:450px;
+  background: #000;
+  color:#fff;
+  opacity: 0.8;
+  padding: 10px;
+  border-radius: 5px;
+}
+.login-header{
+color:#409;
+text-align: center;
+text-shadow: 2px 2px 4px gold;
+margin-left: 40px;
+}
+.login-form{
+margin-top: 40px;
+padding:5px;
+}
+.heading{
+  text-align: center;
+}
+.modal-dialog.modal-lg.large-screen {
+    width: 90%;
+}
+#errorMessage{
+  color:red;
+}
+#success{
+  color:green;
+}

@@ -1,0 +1,316 @@
+body{
+	background: #fff;
+	color:#000
+}
+/*CSS Rules for application main content area*/
+/*Top Companies Stylesheet*/
+.company{
+		margin-left: 20px;
+}
+/*CSS Rules for Menu and menu items*/
+.nav-menu li{}
+	/*CSS Rules for the Image slider*/
+.carousel .item img {
+	height: 650px;
+	width: 100%;
+	}
+/*CSS Rules to clear div floating and other formatting*/
+.clear-fix{
+	  clear:both;
+}
+/*CSS Rules for website footer*/
+.footer{
+
+	background: black;
+	color: white;
+	padding:10px;
+	height:70px;
+	display:block;
+	margin-top: 568px;
+	width:100%
+}
+
+.footer ul{
+	display:table;
+	height:100%;
+	width:100%;
+}
+
+.footer ul li{
+	display:table-cell;
+	vertical-align:middle;
+}
+  /*--Company Vision and Mission Statement--*/
+.mission{
+	padding-top: 20px;
+}
+/*Navbar floating*/
+#nav{
+	float:left;
+	margin-bottom: 20px;
+}
+/*Header and logo rules*/
+.header {
+				float: left;
+				margin-right: 360px;
+}
+/*Rule set for the services section of serivices*/
+.title{
+	text-align:center;
+	font-weight: bold;
+}
+/*Rule Set for the services section of the index page*/
+.service_info {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display:block;
+	margin:0 auto;
+	font-size:85px;
+	text-align: center;
+}
+.service_details{
+	margin:0 auto;
+	text-align: center;
+}
+/*Left pane of the jobSearch page*/
+.left{
+	width:65%;
+	overflow: hidden;
+	padding-left:0px;
+}
+.right,.left input{
+	font-size: 12px;
+}
+/*Right Pane of the jobSearch page*/
+.right{
+	width:30%;
+	overflow: hidden;
+	margin-right: 40px;
+}
+/*Top jobs available in the system style rules*/
+.advert{
+	text-align: justify;
+	margin: 10px;
+	margin-right: 20px;
+}
+/*.marginTop{
+	margin-top: 40px;
+}
+*/
+/*User Account Management Style Rules*/
+#active .selected{
+	background: brown;
+}
+.login li a:hover{
+	background: brown;
+}
+ul.nav.nav-pills.login {
+		margin-bottom: 20px;
+		margin-left: 20px;
+}
+/*Top agents style rules*/
+.img-circle,#topAgent{
+	height: 150px;
+width: 150px;
+}
+.ad p{
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+}
+/*Email and password field icon style rules*/
+input[type='password']{
+	background: transparent url("../images/pass.jpg") no-repeat;
+	background-position: 10px;
+  padding-left: 30px;
+}
+input[type='email']{
+	background: transparent url("../images/mail.gif") no-repeat;
+	background-position: 10px;
+  padding-left: 30px;
+}
+input[type='text']#inputUsername,#inputOldUsername{
+	background: transparent url("../images/user.jpg") no-repeat;
+	background-position: 10px;
+  padding-left: 30px;
+}
+/*Error Message Class Style Rules*/
+.errorMessage{
+	color:red;
+	padding-left:5px;
+}
+.errorSymbol{
+  padding-right:10px;
+  font-size: 2.0em;
+  padding-bottom:10px;
+}
+.required{
+			color:red;
+}
+.notice{
+	font-style: italic;
+	padding: 5px;
+	margin-left: 20px;
+}
+.legend{
+	font-size: 2.4em;
+}
+.sub-legend{
+			font-size: 1.8em;
+}
+/*Seeker Dashboard Rule Sets*/
+#dashboard {
+	margin-left: 35%;
+}
+#dashboard li img {
+		width: 50px;
+		height: 50px;
+}
+#dashboard li {
+	list-style: none;
+  padding-bottom: 10px;
+}
+/*
+.btn.btn-default{
+	background: transparent url("../images/lock,png") no-repeat;
+	background-position: 10px 50%;
+  padding-left: 30px;
+}
+*/
+/*Panel Style rules*/
+.panel-body .row{
+	padding-left:10px;
+}
+.closePane{
+	color:red;
+	font-size:1.5em;
+	text-decoration: none;
+}
+.closePane:hover{
+		text-decoration: none;
+	  color:red;
+}
+
+.panel-primary {
+    border-color: #337ab7;
+    height: 170px;
+}
+.panel-primary>.panel-heading{
+	color: #fff;
+  background-color: #c0c0c0;
+  border-color: #337ab7;
+}
+
+/*Search Header style rules*/
+.searchHeader{
+	margin-bottom: 10px;
+}
+
+/*Company logo style rules*/
+a#companyLink {
+    display: block;
+    text-align: inherit;
+    padding-bottom: 10px;
+}
+/*Style rules for select control UI*/
+select.form-control {
+    margin-right: 10px;
+}
+#feedback{
+    padding:10px;
+}
+
+
+/*Menu bar tranformation*/
+.nav-tabs>li>a{
+    text-transform:uppercase;
+}
+/*Menu spacer for drop down menu*/
+.menu-spacer{
+	margin-top: 70px;
+}
+/*Logo placement rule set*/
+.navbar-brand>img {
+    margin-top: -15px;
+}
+/*Rule set to allign all paragraohs in the top agent section*/
+.row>p {
+    text-align: center;
+}
+textarea{
+	resize: none;
+	text-align: justify;
+}
+img.img-circle {
+     width: 150px;
+		 height:150px;
+}
+.container table{
+	margin-top: 20px;
+}
+.container table td {
+    padding-right: 40px;
+    padding-bottom: 5px;
+}
+.container .profile_title{
+	font-weight: bold;
+}
+.resume_img .img-circle{
+	float:right;
+}
+/*Add Job Class in Recruiter Module style rules*/
+a.add_job {
+    font-size: 0.5em;
+    font-weight: bold;
+    margin: 10px;
+	}
+/*Job Summary style rules*/
+.container .content {
+    text-align: justify;
+}
+
+/*Job Search thumbnail*/
+img.img-circle.search-thumbnail {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+.job-apply{
+	margin-bottom: 10px;
+}
+/*Job preview page attachment style rules*/
+span.glyphicon.glyphicon-file.doc {
+    font-size: 60px;
+}
+/*Job Search button style rules*/
+.left input {
+    font-size: 12px;
+    width: 150px;
+    margin-top: 10px;
+}
+#panel-job-0,#panel-job-2,#panel-job-4{
+	height:220px;
+}
+
+/*Job preview rules*/
+.job_preview_title{
+	text-align: center;
+}
+
+/*Search UI design rules*/
+.form-control,.btn{
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius: 15px;
+}
+
+.notification{
+	margin-top: 20px;
+}
+div#prefrence_result{
+	color:red;
+}
+
+.popover-title{
+	background-color: #1C928D;
+}
