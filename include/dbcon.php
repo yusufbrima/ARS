@@ -7,8 +7,8 @@ DEFINE('mailer','smtp');
 DEFINE('host','smtp.gmail.com');
 DEFINE('SMTPSecure',"ssl");
 DEFINE('port',587);
-DEFINE('username','yusufbrima@gmail.com');
-DEFINE('password','%my_mum%');
+DEFINE('username','yourmail@gmail.com');
+DEFINE('password','yourpassword');
 
 $config['timeout']=5*60;//Seconds to destory the session data
 $config['salt'] ='&@~p\[?kj';
